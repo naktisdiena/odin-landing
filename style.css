@@ -67,11 +67,12 @@ a {
 .hero-body-text {
   font-size: 18px;
   color: #969696;
+  margin-bottom: 16px;
 }
 
 h1 {
   font-size: 48px;
-  margin: 0;
+  margin-bottom: 6px;
 }
 
 button {
