@@ -1,13 +1,16 @@
 * {
   font-family: "Roboto", sans-serif;
-  border: 1px solid red;
+  #border: 1px solid red;
+}
+
+header {
+  padding: 20px 0;
 }
 
 header,
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 12px 100px;
   align-content: center;
 }
 
@@ -19,6 +22,7 @@ header,
 .top {
   background-color: #1f2937;
   color: white;
+  padding: 0px 100px;
 }
 
 ul {
@@ -62,5 +66,75 @@ a {
 
 h1 {
   font-size: 48px;
-  padding: 0;
+  margin: 0;
+}
+
+.primary-button {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 6px 24px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px;
+  margin: 12px 0;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+  padding: 10px 100px;
+}
+
+.rectangle {
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  height: 120px;
+}
+
+.card-text {
+  font-size: 14px;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.section2 {
+  background-color: rgb(225, 225, 225);
+  padding: 60px 250px;
+  margin: 50px 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.quote-author-text {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: end;
+}
+
+.section3 {
+  margin: 80px 100px;
+  padding: 40px 150px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
