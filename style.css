@@ -3,6 +3,8 @@
   /* border: 1px solid red; */
 }
 
+
+/* --- HEADER --- */
 .top {
   background-color: #1f2937;
   color: white;
@@ -38,6 +40,8 @@ a {
   text-decoration: none;
   color: rgb(177, 177, 177);
 }
+
+/* --- HERO --- */
 
 .left-hero,
 .hero-image {
@@ -83,6 +87,8 @@ button {
   border: none;
 }
 
+/* --- SECTION 1 --- */
+
 h2 {
   font-size: 36px;
   font-weight: 900;
@@ -114,6 +120,8 @@ h2 {
   color: #6e6e6e;
 }
 
+/* --- SECTION 2 --- */
+
 .section2 {
   background-color: rgb(225, 225, 225);
   padding: 60px 250px;
@@ -132,6 +140,8 @@ h2 {
   font-weight: 900;
   text-align: end;
 }
+
+/* --- SECTION 3 --- */
 
 .section3 {
   margin: 80px 100px;
@@ -160,6 +170,8 @@ h2 {
   border: white solid 2px;
   background-color: transparent;
 }
+
+/* --- FOOTER --- */
 
 .footer {
   background-color: #1f2937;
