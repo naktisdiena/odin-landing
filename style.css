@@ -1,5 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
+  border: 1px solid red;
 }
 
 header,
@@ -48,6 +49,18 @@ a {
 }
 
 .hero-image {
-  height: auto;
+  height: 100%;
+  width: 100%;
   max-width: 20rem;
+  object-fit: cover;
+}
+
+.hero-body-text {
+  font-size: 18px;
+  color: #969696;
+}
+
+h1 {
+  font-size: 48px;
+  padding: 0;
 }
